@@ -1,13 +1,11 @@
-# File Read, Modify, Write with Error Handling
-
 filename = input("Enter the filename to read: ")
 
 try:
-    # Try opening the input file
+    
     with open(filename, "r") as f:
         content = f.read()
 
-    # Modify content (example: uppercase)
+    # Modify content (uppercase)
     modified = content.upper()
 
     # Create new filename
