@@ -1,6 +1,0 @@
-set1_input = input("Enter the first set of integers: ")
-set2_input = input("Enter the second set of integers: ")
-set1 = set(map(int, set1_input.split()))
-set2 = set(map(int, set2_input.split()))
-common_elements = set1.intersection(set2)
-print("Common elements:", common_elements)
